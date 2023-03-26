@@ -1,3 +1,3 @@
 # Blockly para C
 
-Este projeto tem como objetivo criar uma ferramenta para traduzir código em bloco gerado pela Blockly para C. Além disso, a ferramenta foi traduzida para o português, visando facilitar o aprendizado e uso por usuários brasileiros.
+Este projeto tem como objetivo usar a base feita pelo @hueyanchen para traduzir o "Blockly for C" para o português
