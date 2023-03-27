@@ -50,6 +50,7 @@
     </style>
 </head>
 
+<!-- Nao traduzir o nome das bibliotecas nem o VAR, VAR0, VALUE, etc (erro no JS) -->
 <body onload="start()">
     <div class="header">
         <nav class="navbar navbar-default">
@@ -127,7 +128,7 @@
                         </block>
                         <block type="variables_pointer_get"></block>
                         <block type="variables_pointer_set">
-                            <value name="VARIÁVEL">
+                            <value name="VAR">
                                 <block type="variables_pointer_get">
                                 </block>
                             </value>
@@ -180,7 +181,7 @@
                             </value>
                             <value name="VALUE">
                                 <block type="library_stdio_text">
-                                    <field name="TEXTO">Olá, mundo!</field>
+                                    <field name="TEXT">Olá, mundo!</field>
                                 </block>
                             </value>
                         </block>
@@ -208,7 +209,7 @@
                 </category>
                 <category name="Entrada">
                     <block type="library_stdio_scanf">
-                        <value name="VARIÁVEL0">
+                        <value name="VAR0">
                             <block type="variables_get">
                             </block>
                         </value>
@@ -224,17 +225,17 @@
                     <block type="controls_whileUntil"></block>
                     <block type="controls_doWhile"></block>
                     <block type="controls_for">
-                        <value name="DE">
+                        <value name="FROM">
                             <block type="math_number">
                                 <field name="NUM">1</field>
                             </block>
                         </value>
-                        <value name="ATÉ">
+                        <value name="TO">
                             <block type="math_number">
                                 <field name="NUM">10</field>
                             </block>
                         </value>
-                        <value name="POR">
+                        <value name="BY">
                             <block type="math_number">
                                 <field name="NUM">1</field>
                             </block>
@@ -255,12 +256,11 @@
                 </category>
                 </category>
                 <category name="Biblioteca">
-                    <!-- Nao traduzir o nome das bibliotecas -->
                     <category name="stdlib">
                         <block type="library_stdlib_abs"></block>
                         <block type="library_stdlib_convert"></block>
                         <block type="library_stdlib_rand">
-                            <value name="VARIÁVEL">
+                            <value name="VAR">
                                 <block type="library_stdlib_rand_scope">
                                     <value name="A">
                                         <block type="library_stdlib_number_forRandScope1"></block>
@@ -272,7 +272,7 @@
                             </value>
                         </block>
                         <block type="library_stdlib_malloc">
-                            <value name="VARIÁVEL">
+                            <value name="VAR">
                                 <block type="library_stdlib_arithmetic_forMalloc">
                                     <value name="A">
                                         <block type="library_stdlib_sizeof_forMalloc"></block>
@@ -316,9 +316,9 @@
                         <block type="library_time_requiredTime"></block>
                     </category>
                 </category>
-                <category name="Comentario">
+                <category name="Comentário">
                     <block type="comment">
-                        <value name="VARIÁVEL0">
+                        <value name="VAR0">
                             <block type="library_stdio_text"></block>
                         </value>
                     </block>
