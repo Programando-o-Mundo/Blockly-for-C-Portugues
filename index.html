@@ -99,8 +99,8 @@
                 </div>
             </div>
             <xml id="toolbox">
-                <category name="Variables">
-                    <category name="Variable">
+                <category name="Variáveis">
+                    <category name="Variável">
                         <block type="variables_declare">
                             <value name="VALUE">
                                 <block type="math_number">
@@ -119,7 +119,7 @@
                         <block type="library_stdio_text_char"></block>
                         <block type="math_number"></block>
                     </category>
-                    <category name="Pointer">
+                    <category name="Ponteiro">
                         <block type="variables_pointer_declare">
                             <value name="VALUE">
                                 <block type="logic_null"></block>
@@ -127,7 +127,7 @@
                         </block>
                         <block type="variables_pointer_get"></block>
                         <block type="variables_pointer_set">
-                            <value name="VAR">
+                            <value name="VARIÁVEL">
                                 <block type="variables_pointer_get">
                                 </block>
                             </value>
@@ -143,7 +143,7 @@
                         <block type="variables_pointer_&"></block>
                         <block type="variables_pointer_*"></block>
                     </category>
-                    <category name="Array">
+                    <category name="Vetor">
                         <block type="variables_array_declare">
                             <value name="LENGTH_1">
                                 <block type="math_number">
@@ -180,7 +180,7 @@
                             </value>
                             <value name="VALUE">
                                 <block type="library_stdio_text">
-                                    <field name="TEXT">hello! world!</field>
+                                    <field name="TEXTO">Olá, mundo!</field>
                                 </block>
                             </value>
                         </block>
@@ -188,7 +188,7 @@
                         <block type="variables_string_null"></block>
                     </category>
                 </category>
-                <category name="Arithmetics">
+                <category name="Aritmética">
                     <block type="math_number"></block>
                     <block type="math_arithmetic"></block>
                     <block type="math_modulo"></block>
@@ -199,42 +199,42 @@
                     <block type="math_prev_inc_decrement"></block>
                     <block type="math_post_inc_decrement"></block>
                 </category>
-                <category name="Output">
+                <category name="Saída">
                     <block type="library_stdio_printf"></block>
                     <block type="library_stdio_text"></block>
                     <block type="library_stdio_newLine"></block>
                     <block type="library_stdio_tab"></block>
                     <block type="math_number"></block>
                 </category>
-                <category name="Input">
+                <category name="Entrada">
                     <block type="library_stdio_scanf">
-                        <value name="VAR0">
+                        <value name="VARIÁVEL0">
                             <block type="variables_get">
                             </block>
                         </value>
                     </block>
                 </category>
-                <category name="Conditions">
+                <category name="Condições">
                     <block type="controls_if"></block>
                     <block type="controls_switch"></block>
                     <block type="controls_switch_break"></block>
                     <block type="logic_ternary"></block>
                 </category>
-                <category name="Loops">
+                <category name="Laços">
                     <block type="controls_whileUntil"></block>
                     <block type="controls_doWhile"></block>
                     <block type="controls_for">
-                        <value name="FROM">
+                        <value name="DE">
                             <block type="math_number">
                                 <field name="NUM">1</field>
                             </block>
                         </value>
-                        <value name="TO">
+                        <value name="ATÉ">
                             <block type="math_number">
                                 <field name="NUM">10</field>
                             </block>
                         </value>
-                        <value name="BY">
+                        <value name="POR">
                             <block type="math_number">
                                 <field name="NUM">1</field>
                             </block>
@@ -242,25 +242,25 @@
                     </block>
                     <block type="controls_flow_statements"></block>
                 </category>
-                <category name="Logic">
-                    <block type="logic_compare"></block>
+                <category name="Lógica"></block>
                     <block type="logic_operation"></block>
                     <block type="logic_negate"></block>
                     <block type="logic_boolean"></block>
                     <block type="logic_null"></block>
                 </category>
-                <category name="Functions" custom="PROCEDURE">
+                <category name="Funções" custom="PROCEDURE">
                     <block type="procedures_defnoreturn"></block>
                     <block type="procedures_defreturn"></block>
                     <block type="procedures_return"></block>
                 </category>
                 </category>
-                <category name="Library">
-                    <category name="Stdlib">
+                <category name="Biblioteca">
+                    <!-- Nao traduzir o nome das bibliotecas -->
+                    <category name="stdlib">
                         <block type="library_stdlib_abs"></block>
                         <block type="library_stdlib_convert"></block>
                         <block type="library_stdlib_rand">
-                            <value name="VAR">
+                            <value name="VARIÁVEL">
                                 <block type="library_stdlib_rand_scope">
                                     <value name="A">
                                         <block type="library_stdlib_number_forRandScope1"></block>
@@ -272,7 +272,7 @@
                             </value>
                         </block>
                         <block type="library_stdlib_malloc">
-                            <value name="VAR">
+                            <value name="VARIÁVEL">
                                 <block type="library_stdlib_arithmetic_forMalloc">
                                     <value name="A">
                                         <block type="library_stdlib_sizeof_forMalloc"></block>
@@ -294,13 +294,13 @@
                         <block type="library_stdlib_free"></block>
                         <block type="library_stdlib_exit"></block>
                     </category>
-                    <category name="String">
+                    <category name="string">
                         <block type="library_string_strlen"></block>
                         <block type="library_string_strcat"></block>
                         <block type="library_string_strcpy"></block>
                         <block type="library_string_strcmp"></block>
                     </category>
-                    <category name="Math">
+                    <category name="math">
                         <block type="library_math_abs"></block>
                         <block type="library_math_trig"></block>
                         <block type="library_math_logs"></block>
@@ -311,14 +311,14 @@
                         <block type="library_math_numcheck"></block>
                         <block type="library_math_numcompare"></block>
                     </category>
-                    <category name="Time">
+                    <category name="time">
                         <block type="library_time_current"></block>
                         <block type="library_time_requiredTime"></block>
                     </category>
                 </category>
-                <category name="Comment">
+                <category name="Comentario">
                     <block type="comment">
-                        <value name="VAR0">
+                        <value name="VARIÁVEL0">
                             <block type="library_stdio_text"></block>
                         </value>
                     </block>
