@@ -495,8 +495,8 @@ Blockly.Msg.VARIABLES_ARRAY_DECLARE_TITLE = 'Declarar array';
 Blockly.Msg.VARIABLES_ARRAY_DECLARE_LENGTH = 'Número de elementos';
 Blockly.Msg.VARIABLES_ARRAY_DECLARE_DEFAULT_NAME = 'meuArr';
 Blockly.Msg.VARIABLES_RETURN = 'Retornar ';
-Blockly.Msg.POINTER_GET_TITLE = "obter valor do ponteiro %1";
-Blockly.Msg.ARRAY_GET_TITLE = "obter valor do elemento %1 do array %2";
+Blockly.Msg.POINTER_GET_TITLE = 'obter valor do ponteiro %1';
+Blockly.Msg.ARRAY_GET_TITLE = 'obter valor do elemento %1 do array %2';
 
 Blockly.Msg.FUNCTION_SET_TYPE_INT = 'int';
 Blockly.Msg.FUNCTION_SET_TYPE_FLOAT = 'float';
