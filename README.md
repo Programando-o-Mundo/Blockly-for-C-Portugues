@@ -20,8 +20,9 @@ Originalmente ele oferece suporte a algumas linguagens, incluindo JavaScript, Py
 - [x] Laços de Repetição
 - [x] Estruturas Lógicas
 - [x] Funções
-- [x] stdlib.h
-- [x] string.h
-- [x] math.h
-- [x] time.h
+- [x] Bibliotecas:
+  - [x] stdlib.h
+  - [x] string.h
+  - [x] math.h
+  - [x] time.h
 - [x] Comentário
