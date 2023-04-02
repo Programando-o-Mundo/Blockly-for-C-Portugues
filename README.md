@@ -1,6 +1,6 @@
 # Blockly para C
 
-![Captura de tela de 2023-04-02 10-59-04](https://user-images.githubusercontent.com/9157977/229357578-d88c4d83-75bc-4aca-971b-169eaf543bcb.png)
+![blockly_thumbnail](https://user-images.githubusercontent.com/9157977/229365267-f0053b12-6fad-4ffc-bd42-c3aee5be602f.jpg)
 
 Blockly é um projeto de código aberto que oferece uma interface gráfica de programação baseada em blocos, que permite criar aplicativos, jogos e outras experiências interativas sem a necessidade de escrever código de programação tradicional. É frequentemente usado em ambientes educacionais, pois facilita a aprendizagem de conceitos de programação de forma visual e intuitiva. O Blockly é implementado em JavaScript e pode ser executado em um navegador da web ou integrado em outros aplicativos. 
 
